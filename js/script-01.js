@@ -1,8 +1,8 @@
 // Chiedere una parola all'utente.
 // Verificare che la parola sia palindroma
 
-var wordGiven;
 const button = document.getElementById("btn-send");
+var wordGiven;
 
 function palyndromeCheck(word){
     //.split percorre la stringa dividendo i singoli caratteri "" in un array
