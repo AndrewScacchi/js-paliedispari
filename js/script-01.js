@@ -14,10 +14,10 @@ function palyndromeCheck(word){
 
     //verifica palindromicità
     if (word === wordReverse){
-        const isPalyndrome = `La parola <span class="upperCase">\"${word}\"</span> <strong>E'</strong> un palindromo`;
+        const isPalyndrome = `La parola <span class="upperCase">\"${word}\"</span> <br> <strong>E'</strong> un palindromo`;
         return isPalyndrome;
     } else {
-        const isNotPalyndrome = `La parola <span class="upperCase">\"${word}\"</span> <strong>NON E'</strong> un palindromo`;
+        const isNotPalyndrome = `La parola <span class="upperCase">\"${word}\"</span> <br> <strong>NON E'</strong> un palindromo`;
         return isNotPalyndrome;
     }
 }
