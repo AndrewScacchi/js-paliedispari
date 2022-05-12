@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .container {
     margin: 100px auto;
     width: 100%;
@@ -14,8 +13,16 @@
     justify-content: center;
     align-items: center;
 }
-h1, input {
+.container > * {
     margin-bottom: 25px;
+}
+p {
+    font-size: 2em;
+}
+/* IDs and CLASSES */
+
+.upperCase {
+    text-transform: uppercase;
 }
 #input-word{
     width: 300px;
